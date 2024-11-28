@@ -1,0 +1,27 @@
+{
+  "name": "rest-boilerplate",
+  "version": "1.0.0",
+  "description": "REST API boilerplate project",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "start:dev": "nodemon --watch src --exec ts-node src/server.ts",
+    "test": "jest"
+  },
+  "author": "Sinan ÇAKAL",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,132 @@
+# Node modules
+node_modules/
+
+#Prisma
+prisma/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Dist folder
+dist/
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Mac system files
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Miscellaneous
+*.swp
+*~
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional Prettier cache
+.prettiercache
+
+# Optional TSLint cache
+tslint.cache
+
+# Optional coverage directory
+coverage/
+
+# Optional nyc output
+.nyc_output/
+
+# Optional parcel-bundler cache
+.cache/
+
+# Optional next.js build output
+.next/
+
+# Optional nuxt.js build output
+.nuxt/
+
+# Optional vuepress build output
+.vuepress/dist
+
+# Optional svelte build output
+.svelte-kit/
+
+# Optional rollup cache
+.rollup.cache
+
+# Optional fuse-box cache
+.fusebox/
+
+# Optional docusaurus cache
+.docusaurus/
+
+# Optional 11ty output
+.eleventy.js
+
+# Optional snowpack cache
+.snowpack/
+
+# Optional vite cache
+.vite/
+
+# Optional vercel output
+.vercel/
+
+# Optional netlify output
+.netlify/
+
+# Optional gatsby build output
+.public/
+
+# Optional expo build output
+.expo/
+.expo-shared/
+
+# Optional storybook build output
+.out/
